@@ -175,9 +175,14 @@ h4 {
 }
 
 .drop {
+	color: black;
 	background:#09f;
 	font-weight:bold;
 	padding:1em;
+	background-image:url(../img/small-chalice.jpeg);
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 18px;
 }
 
 #download {
