@@ -43,21 +43,50 @@
             <div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
 
             <div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
-                <h1>BAM!</a></h1>
+                <h1>BAM!</h1>
                 <h2>Here's where we'll put our stuff</h2>
                 <p>Sweet!</p>
                 <p class="arrows">▼&nbsp;▼&nbsp;▼</p>
             </div>
 
-            <!--<div id="intro" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">-->
-            <div id="intro" data-500="top:100%;" data-1000="top:0%;" data-1600="display:block;" data-1700="top:-100%;display:none;">
-                <h2>Hey</h2>
-                <p>Stella and stuff</p>
+            <div id="intro" class="tabs" data-500="top:100%;" data-1000="top:0%;" data-1600="display:block;" data-1700="top:-100%;display:none;">
+                <h2 class="center">Title</h2>
+                <ul class="tab-links">
+                    <li class="active"><a href="#tab1">Real</a></li>
+                    <li><a href="#tab2">Fake</a></li>
+                </ul>
+             
+                <div class="tab-content">
+                    <div id="tab1" class="tab active">
+                        <p>Tab #1 content goes here!</p>
+                        <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+                    </div>
+             
+                    <div id="tab2" class="tab">
+                        <p>Tab #2 content goes here!</p>
+                        <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+                    </div>
+                </div>
             </div>
 
-            <div id="intro" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
-                <h2>We like beer</h2>
-                <p>Beer is great</p>
+            <div id="intro" class="tabs" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+                <h2 class="center">Title</h2>
+                <ul class="tab-links">
+                    <li class="active"><a href="#tab1">Real</a></li>
+                    <li><a href="#tab2">Fake</a></li>
+                </ul>
+             
+                <div class="tab-content">
+                    <div id="tab1" class="tab active">
+                        <p>Tab #1 content goes here!</p>
+                        <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+                    </div>
+             
+                    <div id="tab2" class="tab">
+                        <p>Tab #2 content goes here!</p>
+                        <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+                    </div>
+                </div>
             </div>
 
             <div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
